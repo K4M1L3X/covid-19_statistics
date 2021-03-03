@@ -8,19 +8,19 @@ function(data) {
 
     if (confirmed == null) $(".confirmed").append("DATA NOT UPDATED");
     else {
-        $(".confirmed").append("Ilość potwierdzonych zakażeń<br/>");
+        //$(".confirmed").append("Ilość potwierdzonych zakażeń<br/>");
         $(".confirmed").append(confirmed);
     } 
 
     if (deaths == null) $(".deaths").append("DATA NOT UPDATED");
     else {
-        $(".deaths").append("Ilość śmierci<br/>");
+        //$(".deaths").append("Ilość śmierci<br/>");
         $(".deaths").append(deaths);
     }
 
     if (recovered == null) $(".recovered").append("DATA NOT UPDATED");
     else {
-        $(".recovered").append("Ilość wyleczonych<br/>");
+        //$(".recovered").append("Ilość wyleczonych<br/>");
         $(".recovered").append(recovered);
     }
     
